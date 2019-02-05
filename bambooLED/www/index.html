@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Control Site</title>
+	</head>
+	<body>
+		<div>
+			<h1>LED Control Center</h1>
+			<div id="mainContents">
+				<input id="ledState" type="number" min=0 max=4 value="0">
+				<button onclick="setstate();">setState</button>
+			</div>
+		</div>
+		<script type="text/javascript">
+			const ws = new WebSocket('ws://localhost:3000/');
+			console.log(ws.readyState);
+			ws.onopen = () => {
+				console.log(ws.readyState);
+			}
+			ws.onmessage = (message) => {
+				console.log(message.data);
+			}
+			onerror = (error) => {
+				console.log('WebSocket Error ' + error);
+			};
+			function setstate() {
+				console.log(ledState.value);
+				ws.send(ledState.value);
+			}
+		</script>
+		<style>
+			body {
+				text-align: center;
+			}
+			button {
+				margin: 0 20px 40px;
+				padding: 1rem 2rem;
+				border: none;
+				display: inline-block;
+				background-color: #5A7AB3;
+				box-shadow: 0 6px #4063A4;
+				font-size: 1.5rem;
+				line-height: 1;
+				color: #fff;
+				position: relative;
+				cursor: pointer;
+				border-radius: 2px;
+				box-shadow: 0 6px #4063A4;
+			}
+			button:active {
+				box-shadow: 0 0 #4063A4;
+				top: 6px;
+			}
+			input[type=number] {
+				font-size: 2.5rem;
+			}
+
+		</style>
+	</body>
+</html>

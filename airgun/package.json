@@ -1,0 +1,26 @@
+{
+  "name": "airgun",
+  "version": "3.4.5",
+  "description": "control",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPolyomino/airgun.git"
+  },
+  "keywords": [
+    "tatsuhito"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iPolyomino/airgun/issues"
+  },
+  "homepage": "https://github.com/iPolyomino/airgun#readme",
+  "dependencies": {
+    "johnny-five": "^0.11.6",
+    "ws": "^3.2.0"
+  }
+}

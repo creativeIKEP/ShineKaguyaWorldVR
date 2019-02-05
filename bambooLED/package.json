@@ -1,0 +1,28 @@
+{
+  "name": "banboo-led",
+  "version": "1.0.0",
+  "description": "Node.jsを用いたマイコン制御プログラム",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPolyomino/bambooLED.git"
+  },
+  "keywords": [
+    "Arduino"
+  ],
+  "author": "Hagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iPolyomino/bambooLED/issues"
+  },
+  "homepage": "https://github.com/iPolyomino/bambooLED#readme",
+  "dependencies": {
+    "eslint": "^4.7.2",
+    "express": "^4.15.4",
+    "johnny-five": "^0.11.3",
+    "ws": "^3.2.0"
+  }
+}
