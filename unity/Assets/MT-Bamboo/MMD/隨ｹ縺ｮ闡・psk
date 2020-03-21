@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<SkeletonData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Anchor>
+    <AnchorData>
+      <Name>センターA1</Name>
+      <ParentAnchor />
+      <Shape>1</Shape>
+      <Position>
+        <Vector3>
+          <X>-3.49138069</X>
+          <Y>2.044538</Y>
+          <Z>1</Z>
+        </Vector3>
+        <Vector3>
+          <X>11.4371061</X>
+          <Y>-3.38898659</Y>
+          <Z>1</Z>
+        </Vector3>
+        <Vector3>
+          <X>11.4371061</X>
+          <Y>-3.38898659</Y>
+          <Z>-1</Z>
+        </Vector3>
+        <Vector3>
+          <X>-3.49138069</X>
+          <Y>2.044538</Y>
+          <Z>-1</Z>
+        </Vector3>
+        <Vector3>
+          <X>-3.833401</X>
+          <Y>1.10484529</Y>
+          <Z>1</Z>
+        </Vector3>
+        <Vector3>
+          <X>11.0950861</X>
+          <Y>-4.328679</Y>
+          <Z>1</Z>
+        </Vector3>
+        <Vector3>
+          <X>11.0950861</X>
+          <Y>-4.328679</Y>
+          <Z>-1</Z>
+        </Vector3>
+        <Vector3>
+          <X>-3.833401</X>
+          <Y>1.10484529</Y>
+          <Z>-1</Z>
+        </Vector3>
+      </Position>
+      <Bone>センター</Bone>
+      <Color>
+        <Red>0.726243258</Red>
+        <Green>0.817325354</Green>
+        <Blue>0.7680227</Blue>
+        <Alpha>1</Alpha>
+      </Color>
+      <EnableWeight>true</EnableWeight>
+      <WeightMode>1</WeightMode>
+      <IsMirror>false</IsMirror>
+      <MirrorAnchor />
+      <GuideType>1</GuideType>
+      <Visible>false</Visible>
+      <MaskVertex />
+      <ExceptVertex />
+      <MaskMaterials />
+      <ExceptMaterials />
+    </AnchorData>
+  </Anchor>
+  <Version>1</Version>
+  <PmxVersion>2</PmxVersion>
+</SkeletonData>
